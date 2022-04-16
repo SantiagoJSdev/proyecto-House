@@ -1,0 +1,61 @@
+
+
+:root {
+    --color-white: #FFFFFF;
+    --color-line : #E3E2E2; 
+    --color-dark : #2D2D2C;
+    --color-nav  : #F75757;
+}
+
+
+body {
+    background: var(--color-white);
+}
+
+.home__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 600px 600px 200px 800px 200px 70px 100px ;
+    grid-template-areas: 
+    /* "header header header header header" */
+    "search search search search search"
+    "verificados verificados verificados verificados verificados"
+    "lugares lugares lugares lugares lugares"
+    "randon randon randon randon randon"
+    "publica publica publica publica publica"
+    "img img img img img"
+    "footer footer footer footer footer"
+;
+}
+.home__header {
+    position: absolute;
+}
+.home__search {
+    grid-area: search;
+    background: darkcyan;
+}
+.home__verificados {
+    grid-area: verificados;
+    background: rgb(39, 39, 39);
+}
+.home__lugares {
+    grid-area: lugares;
+    background: rgb(136, 7, 7);
+}
+.home__randon {
+    grid-area: randon;
+    background: rgb(7, 9, 136);  
+}
+.home__publica {
+    grid-area: publica;
+    background: rgb(125, 7, 136);  
+}
+.home__img {
+    grid-area: img;
+    background: rgb(65, 65, 66);  
+}
+.home__footer {
+    grid-area: footer;
+    background: #F75757;
+}
