@@ -1,29 +1,23 @@
 
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import { Nav } from '../components/Nav'
 
 import '../styles/home.css'
 
 export const Home = () => {
 
-  const refNav = useRef(null)
-
-  useEffect(() => {
-    window.addEventListener('scroll', ()=> {
-      // const scrollPx = window.scrollY
-      // console.log(scrollPx)
-      const ubicacion = refNav.current.getBoundingClientRect()
-      console.log(ubicacion)
-    } )
-    const onChange = entries => {
-      entries.forEach( entry => {
-        console.log(entry)
-        // console.log(refNav.current)
-      })
-    }
-    const observer = new IntersectionObserver(onChange, {threshold: 0.5})
-    observer.observe(refNav.current)
-  }, [refNav])
+  // console.log(img)
+  // const refNav = useRef(null)
+  // useEffect(() => {
+  //   const onChange = entries => {
+  //     entries.forEach( entry => {
+  //       console.log(entry)
+  //       console.log(refNav.current)
+  //     })
+  //   }
+  //   const observer = new IntersectionObserver(onChange, {threshold: 0.5})
+  //   observer.observe(refElement.current)
+  // }, [])
   
 
 
@@ -32,13 +26,19 @@ export const Home = () => {
 
     <div className='home__container'>
 
-      <header ref={refNav} className="home__header">
+      <header className="home__header">
         <Nav/>
       </header>
 
       <section className='home__search'>
         <article>
-          home__search 1
+          <div className='home__search--nombre'><h3>Arriendo confiable para Estudiantes y Jovenes Pro</h3></div>
+          <div className='home__search--input'>
+              <div className='input__select'>
+                <p>Elige una ciudad</p>
+              </div>
+              <div className='input__logo'><i class="fas fa-search"></i></div>
+          </div>
         </article>
       </section>
       <section className='home__verificados'>
@@ -56,7 +56,7 @@ export const Home = () => {
           home__randon 1
         </article>
       </section>
-      <section className='home__publica'>
+      <section  className='home__publica'>
         <article>
           home__publica 1
         </article>

@@ -1,41 +1,87 @@
 
-
 .header__nav{
     width: 100%;
     height: 6.25em;
     background: transparent;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     font-weight: 700;
+ 
     color: var(--color-white);
     position:fixed;
-    /* position: absolute; */
+    transition: all 0.2s;
+
+    animation-name: desvanecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 .header__nav > ul{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-around;
     pointer-events: none;
     user-select: none;
 }
 .header__nav > ul > li{
     position: relative;
     pointer-events: all;
-    transition: all 1s ;
+    transition: all 0.2s ;
     }
+.header__nav > ul > li > a{
+    transition: all 0.2s ;
+    color: var(--color-white);
+    }
+.header__nav > ul > li > div > a{
+    transition: all 1s ;
+    color: var(--color-white);
+    }
+.header__nav-1{
+    width: 100%;
+    height: 6.25em;
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: var(--negro);
+    transition: all 0.2s;
+    position:fixed;
+
+    animation-name: desvanecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+.header__nav-1 > ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    pointer-events: none;
+    user-select: none;
+}
+.header__nav-1 > ul > li{
+    position: relative;
+    pointer-events: all;
+    transition: all 0.2s ;
+    }
+
 .header__nav--logo{
     width: 20em;
     display: flex;
     justify-content: center;
+    /* background: red; */
+}
+.header__nav--logo > img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
 }
 .header__nav--auth{
     width: 20em;
     display: flex;
     justify-content: center;
-    background: gray;
-    gap: 20px;
+    /* background: gray; */
+    gap: 1.25em;
 }
 .auth__ingresar{
     padding-right: 1.25em;
@@ -71,4 +117,25 @@
     /* left: 0; */
     left: 0;
     transition: all 1s ;
+}
+.activo {
+
+    transition: all 0.2s;
+    display: none;
+}
+
+
+
+
+
+
+
+
+@keyframes desvanecer {
+from{
+opacity: 0;
+}
+to{
+opacity: 1;
+}
 }
