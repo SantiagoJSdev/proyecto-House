@@ -14,6 +14,7 @@
     animation-name: desvanecer;
     animation-duration: 2s;
     animation-timing-function: linear;
+
 }
 .header__nav > ul{
     width: 100%;
@@ -22,8 +23,10 @@
     justify-content:space-around;
     pointer-events: none;
     user-select: none;
+    gap: -10px;
 }
 .header__nav > ul > li{
+    /* width: 100%; */
     position: relative;
     pointer-events: all;
     transition: all 0.2s ;
@@ -66,7 +69,8 @@
     }
 
 .header__nav--logo{
-    width: 20em;
+    /* width: 20em; */
+    width: 22%;
     display: flex;
     justify-content: center;
     /* background: red; */
@@ -77,10 +81,9 @@
     object-fit: cover;
 }
 .header__nav--auth{
-    width: 20em;
+    width: 100%;
     display: flex;
     justify-content: center;
-    /* background: gray; */
     gap: 1.25em;
 }
 .auth__ingresar{

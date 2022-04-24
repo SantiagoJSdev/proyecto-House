@@ -1,10 +1,20 @@
 
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
+import { Footer } from '../components/Footer'
 import { Nav } from '../components/Nav'
+import { Verificados } from '../components/Verificados'
 
 import '../styles/home.css'
 
 export const Home = () => {
+  const container = useRef(null)
+  useEffect(() => {
+    let reobj = new ResizeObserver(() => {
+      console.log(window.innerWidth)
+    })
+    reobj.observe(container.current)
+  }, [])
+
 
   // console.log(img)
   // const refNav = useRef(null)
@@ -24,7 +34,7 @@ export const Home = () => {
 
   return (<>
 
-    <div className='home__container'>
+    <div ref={container} className='home__container'>
 
       <header className="home__header">
         <Nav />
@@ -37,15 +47,15 @@ export const Home = () => {
             <div className='input__select'>
               <p>Elige una ciudad</p>
             </div>
-            <div className='input__logo'><i class="fas fa-search"></i></div>
+            <div className='input__logo'><i className="fas fa-search"></i></div>
           </div>
         </article>
       </section>
-      <section className='home__verificados'>
-        <article>
-          home__verificados 1
-        </article>
-      </section>
+      {/* ///////////verificados////////////////// */}
+      
+      <Verificados />
+      
+      {/* ///////////verificados////////////////// */}
       <section className='home__lugares'>
         <article>
           home__lugares 1
@@ -66,41 +76,7 @@ export const Home = () => {
           home__img 1
         </article>
       </section>
-      <section className='home__footer'>
-        <article>
-          <div className='footer__title'>
-            <div className='footer__title--1'>
-              <div className='title__logo'>
-                <div className='title__logo--instagram logo1'><i class="fab fa-instagram"></i></div>
-                <div className='title__logo--facebook logo1'><i class="fab fa-facebook-f"></i></div>
-                <div className='title__logo--twitter logo1'><i class="fab fa-twitter"></i></div>
-              </div>
-              <img src='./assets/logo-white.svg' alt='img' />
-            </div>
-          </div>
-          <div className='footer__suscribe'>
-            <div className='footer__suscribe--1'>
-              <div className='uno__lista'>
-                <ul>
-                  <li>Sobre nosotros</li>
-                  <li>Preguntas Frecuentes</li>
-                  <li>Blog</li>
-                  <li>Contacto</li>
-                </ul>
-              </div>
-              <div className='uno__direccion'></div>
-              <div className='uno__email'></div>
-            </div>
-          </div>
-          <div className='footer__derechos'>
-            <div className='footer__derechos--1'>
-              <h3>&#169; 2021 Estuhouse. Reservados todos los derechos</h3>
-              <p>Términos y Condiciones</p>
-              <p>Política de privacidad</p>
-            </div>
-          </div>
-        </article>
-      </section>
+      <Footer />
     </div>
 
 

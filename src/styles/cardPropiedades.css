@@ -1,0 +1,107 @@
+.containerCard {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.625em;
+}
+
+.containerCard__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* z-index: 8; */
+}
+.containerCard__img--img {
+    max-width: 90%;
+    object-fit: cover;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 12px 13px 43px 27px rgba(0, 0, 0, 0);
+    box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 12px 13px 43px 27px rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    position: relative;
+    z-index: 7;
+}
+.containerCard__img--img > img {
+    position: relative;
+    z-index: -1;
+}
+.containerCard__img--tipo {
+    
+    position: absolute;
+    left: 0;
+    display: flex;
+    gap: 0.625em;
+    margin-top: 0.973em;
+    margin-left: 0.625em;
+}
+.tipo__aparte {
+    background: var(--negro);
+    color: var(--color-white);
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+.tipo__verifi {
+    background: var(--color-nav);
+    color: var(--color-white);
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+.containerCard__img--img > img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 0.1875em;
+}
+
+.containerCard__descripcion {
+    width: 90%;
+    margin-top: 1.25em;
+    color: var(--negro);
+    font-weight: 700;
+    padding: 0.625em;
+    padding-left: 0;
+    border-bottom: 2px solid rgb(224, 224, 224);
+    /* background: red; */
+}
+
+.containerCard__descripcion>div {
+    font-size: 20px;
+}
+
+.containerCard__descripcion--logos {
+    display: flex;
+    gap: 2.1875em;
+}
+
+.containerCard__descripcion--logos>div {
+    display: flex;
+    align-items: center;
+    gap: 0.4375em;
+    color: var(--negro);
+    padding-top: 0.625em;
+
+}
+
+.containerCard__descripcion--logos>div>i {
+    color: var(--color-nav);
+}
+
+.containerCard__precio {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerCard__precio--mensual {
+    margin-top: 0.9375rem;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.containerCard__descripcion--titulo {
+   
+}
