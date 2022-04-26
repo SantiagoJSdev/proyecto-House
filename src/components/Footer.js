@@ -4,7 +4,7 @@ import '../styles/footer.css'
 export const Footer = () => {
   return (
 
-    <section className='home__footer'>
+   
       <article>
         <div className='footer__title'>
           <div className='footer__title--1'>
@@ -67,6 +67,6 @@ export const Footer = () => {
           </div>
         </div>
       </article>
-    </section>
+    
   )
 }

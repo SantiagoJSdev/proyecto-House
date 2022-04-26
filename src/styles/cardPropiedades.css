@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 0.625em;
+    margin-bottom: 3.75em;
 }
 
 .containerCard__img {
@@ -101,7 +102,4 @@
     display: flex;
     align-items: center;
     margin-left: 0;
-}
-.containerCard__descripcion--titulo {
-   
 }

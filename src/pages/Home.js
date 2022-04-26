@@ -1,12 +1,19 @@
 
 import React, { useEffect, useRef } from 'react'
+import { BtnNaranja } from '../components/BtnNaranja'
 import { Footer } from '../components/Footer'
+import { PublicaAqui } from '../components/home/PublicaAqui'
+import { Randon } from '../components/home/Randon'
+import { Lugares } from '../components/Lugares'
 import { Nav } from '../components/Nav'
+import { Testimonio } from '../components/Testimonio'
 import { Verificados } from '../components/Verificados'
-
+import { data } from '../data/data'
 import '../styles/home.css'
 
 export const Home = () => {
+
+
   const container = useRef(null)
   useEffect(() => {
     let reobj = new ResizeObserver(() => {
@@ -51,32 +58,24 @@ export const Home = () => {
           </div>
         </article>
       </section>
-      {/* ///////////verificados////////////////// */}
-      
-      <Verificados />
-      
-      {/* ///////////verificados////////////////// */}
+      <section className='home__verificados'>
+        <Verificados />
+      </section>
       <section className='home__lugares'>
-        <article>
-          home__lugares 1
-        </article>
+        <Lugares />
       </section>
       <section className='home__randon'>
-        <article>
-          home__randon 1
-        </article>
+        <Randon />
       </section>
       <section className='home__publica'>
-        <article>
-          home__publica 1
-        </article>
+        <Testimonio />
       </section>
       <section className='home__img'>
-        <article>
-          home__img 1
-        </article>
+        <PublicaAqui/>
       </section>
-      <Footer />
+      <section className='home__footer'>
+        <Footer />
+      </section>
     </div>
 
 
