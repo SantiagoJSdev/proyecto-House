@@ -57,10 +57,10 @@
     
 
     /* animation: trasladar 8s linear; */
-    animation-name: trasladar;
+    /* animation-name: trasladar;
     animation-duration: 30s;
     animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 .entidades__uno > img {
     max-width: 50%;

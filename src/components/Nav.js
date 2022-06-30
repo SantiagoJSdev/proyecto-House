@@ -44,6 +44,9 @@ export const Nav = () => {
                         <Link to={'/'}>REGISTRO</Link>
                     </div>
                 </li>
+                <li>
+                <i className="fas fa-bars"></i>
+                </li>
             </ul>
         </nav>
     </>

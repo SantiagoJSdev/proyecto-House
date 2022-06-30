@@ -14,7 +14,7 @@ export const Randon = () => {
             <ul>
               <li>HABITACÍON</li>
               <li>APARTAESTUDIO</li>
-              <li>CUPO UNIVERSITARIO</li>
+              <li>CUPO</li>
               <li>APARTAMENTO</li>
               <li className='backColor'>TODOS</li>
             </ul>

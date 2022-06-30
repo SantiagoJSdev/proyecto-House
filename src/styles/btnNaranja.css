@@ -1,7 +1,7 @@
 
 .titulo__boton {
-    width: 25%;
-    height: 4.375em;
+    width: calc(9em + 9vw);
+    height: calc( 2.5em + 2.5vw);
     background: var(--color-nav);
     display: flex;
     justify-content: center;
@@ -9,6 +9,19 @@
     color: var(--color-white);
     border-radius: 2.5em;
     }
+    .titulo__boton > h1 {
+        width: calc(6em + 7vw);
+         text-align: center;
+        font-size: calc(0.5em + 0.7vw);
+
+        }
     .titulo__boton > i {
-        margin-left: 0.625em;
+        margin-right: calc( 0.3em + 0.3vw);
+        font-size: calc(0.5em + 0.7vw);
+    }
+
+    @media screen and (max-width:1200px) {
+  
+
+ 
     }

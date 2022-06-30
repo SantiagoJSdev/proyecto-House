@@ -43,12 +43,16 @@
     color: var(--color-white);
     padding: 0.25em;
     border-radius: 0.25em;
+    font-size: calc(0.5em + 0.7vw);
+
 }
 .tipo__verifi {
     background: var(--color-nav);
     color: var(--color-white);
     padding: 0.25em;
     border-radius: 0.25em;
+    font-size: calc(0.5em + 0.7vw);
+
 }
 .containerCard__img--img > img {
     max-width: 100%;
@@ -67,10 +71,6 @@
     /* background: red; */
 }
 
-.containerCard__descripcion>div {
-    font-size: 20px;
-}
-
 .containerCard__descripcion--logos {
     display: flex;
     gap: 2.1875em;
@@ -87,19 +87,53 @@
 
 .containerCard__descripcion--logos>div>i {
     color: var(--color-nav);
+    font-size: calc(0.5em + 0.7vw);
 }
-
+.logos__habitacion  > p{
+   
+    font-size: calc(0.5em + 0.7vw);
+}
 .containerCard__precio {
     width: 80%;
     display: flex;
     justify-content: center;
 }
+.containerCard__descripcion--titulo{
+    font-size: calc(0.5em + 0.7vw);
 
+}
 .containerCard__precio--mensual {
     margin-top: 0.9375rem;
-    font-size: 20px;
+    font-size: calc(0.7em + 0.7vw);
+
     font-weight: 700;
     display: flex;
     align-items: center;
     margin-left: 0;
+}
+@media screen and (max-width:800px) {
+    .containerCard {
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.625em;
+        margin-bottom: .75em;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .containerCard {
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0.625em;
+        margin-bottom: .75em;
+    }
+
 }

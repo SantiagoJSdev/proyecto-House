@@ -8,8 +8,7 @@ import { Lugares } from '../components/Lugares'
 import { Nav } from '../components/Nav'
 import { Testimonio } from '../components/Testimonio'
 import { Verificados } from '../components/Verificados'
-import { data } from '../data/data'
-import '../styles/home.css'
+ import '../styles/home.css'
 
 export const Home = () => {
 
@@ -17,33 +16,18 @@ export const Home = () => {
   const container = useRef(null)
   useEffect(() => {
     let reobj = new ResizeObserver(() => {
-      console.log(window.innerWidth)
+      
     })
     reobj.observe(container.current)
   }, [])
 
-
-  // console.log(img)
-  // const refNav = useRef(null)
-  // useEffect(() => {
-  //   const onChange = entries => {
-  //     entries.forEach( entry => {
-  //       console.log(entry)
-  //       console.log(refNav.current)
-  //     })
-  //   }
-  //   const observer = new IntersectionObserver(onChange, {threshold: 0.5})
-  //   observer.observe(refElement.current)
-  // }, [])
-
-
-
-
+ 
   return (<>
 
     <div ref={container} className='home__container'>
 
       <header className="home__header">
+       
         <Nav />
       </header>
 

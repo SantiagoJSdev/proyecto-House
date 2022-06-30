@@ -3,7 +3,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+ }
 .home__publica--bienvenido {
     width: 100%;
     display: flex;
@@ -14,10 +14,13 @@
     padding-top: 12.5em;
     /* background: red; */
     position: relative;
-}
+ }
 
 .home__publica--bienvenido>h1 {
-    font-size: 35px;
+    width: calc(10.5em + 10.5vw);
+    font-size: calc(1.5em + 1.5vw);
+     text-align: center;
+
 }
 
 .home__publica--bienvenido::after {
@@ -33,10 +36,11 @@
     display: flex;
     justify-content: space-evenly;
     padding: 3.125em;
+     gap: 5px;
 }
 
 .imagenes__cards {
-    width: 23%;
+    width: calc(8.5em + 8.5vw);
     background: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -45,6 +49,7 @@
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.11);
     box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.11);
     transition: all 1s ease;
+    /* border: 2px solid salmon; */
 }
 
 .imagenes__cards:hover {
@@ -53,13 +58,15 @@
 }
 
 .imagenes__cards>img {
-    max-width: 8.125em;
+   
     padding-top: 3.125em;
+    width: calc(4em + 4vw);
 }
 
 .imagenes__cards>h2 {
     padding-top: 1.875rem;
-    font-size: 25px;
+    font-size: calc(0.9em + 0.7vw);
+
 }
 
 .imagenes__cards>p {
@@ -70,7 +77,8 @@
     padding-bottom: 1.875rem;
     line-height: 2.1875rem;
     color: var(--color-gray);
-    font-size: 20px;
+    font-size: calc(0.6em + 0.6vw);
+
 }
 
 .home__publica--tituloTestimonio {
@@ -78,22 +86,25 @@
     display: flex;
     flex-direction: column;
     padding-top: 9.375em;
-}
+ }
 
 .tituloTestimonio__titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+ 
 }
 
 .tituloTestimonio__titulo>h4 {
     padding-bottom: 1.875em;
     color: var(--color-nav);
+    font-size: calc(1em + 1.5vw);
+
 }
 
 .tituloTestimonio__titulo>p {
-    font-size: 40px;
+    font-size: calc(1em + 1.5vw);
     font-weight: 600;
 }
 
@@ -101,17 +112,18 @@
 .card-container {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 4.375em;
+     gap: 8px;
     /* flex-wrap: wrap; */
 }
 
 .tituloTestimonio__card {
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+ }
 
 .card__internoImg {
     width: 9.375em;
@@ -155,6 +167,7 @@
     justify-content: center;
     align-items: center;
     line-height: 2.1875em;
+    font-size: calc(0.5em + 0.7vw);
 }
 .tituloTestimonio__card > p::after {
     content: '';
@@ -166,13 +179,98 @@
 }
 
 .tituloTestimonio__card>h3 {
-    font-size: 25px;
+    font-size: calc(0.8em + 0.7vw);
 
 }
 
 .tituloTestimonio__card>h5 {
+    font-size: calc(0.6em + 0.7vw);
     padding-top: 0.9375em;
     color: var(--color-gray);
+    text-align: center;
 }
 
 /* //////////////card testimonio////////////// */
+@media screen and (max-width:600px) {
+    .home__publica--imagenes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.125em;
+        gap: 5px;
+    }
+    .imagenes__cards>img {  
+        width: calc(3em + 3vw);
+    }
+    
+    .imagenes__cards>h2 {
+        padding-top: 1.875rem;
+        font-size: calc(0.6em + 0.7vw);
+        text-align: center;
+     
+    }
+    
+    .imagenes__cards>p {
+        width: 70%;
+        line-height: 1.1875rem;
+        color: var(--color-gray);
+        font-size: calc(0.4em + 0.4vw);
+    
+    }
+   
+}
+@media screen and (max-width:600px) {
+    .home__publica--bienvenido>h1 {
+        width: calc(4.5em + 4.5vw);
+        line-height: 35px;
+    
+    }
+    .card__internoImg {
+        width: 5.375em;
+        height: 5.375em;
+        
+    }
+    .card__internoImg-dos {
+        width: 5.375em;
+        height: 5.375em;
+       
+    }
+    .card__internoImg-tres {
+        width: 5.375em;
+        height: 5.375em;
+    
+    }
+    .card-container {
+     
+        padding: 1.375em;
+        
+        /* flex-wrap: wrap; */
+    }
+    }
+
+    @media screen and (max-width:400px) {
+  
+        .card__internoImg {
+            width: 3.375em;
+            height: 3.375em;
+            
+        }
+        .card__internoImg-dos {
+            width: 3.375em;
+            height: 3.375em;
+           
+        }
+        .card__internoImg-tres {
+            width: 3.375em;
+            height: 3.375em;
+        
+        }
+        .card-container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0.375em;
+             gap: 8px;
+            /* flex-wrap: wrap; */
+        }
+    }
