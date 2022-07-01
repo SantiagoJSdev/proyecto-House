@@ -112,9 +112,12 @@
     display: flex;
     justify-content: center;
     gap: 1.25em;
-    font-size: calc(0.53em + 0.5vw);
+    
 }
-
+.header__nav--auth > a{
+    
+    font-size: calc(0.4em + 0.5vw) !important;
+}
 .auth__ingresar {
     padding-right: 1.25em;
     border-right: 2px solid var(--color-white);

@@ -25,10 +25,10 @@ export const Nav = () => {
             <ul>
                 {
                     scroll.activo === 0 ?
-                        <li className='header__nav--logo'><img src='./assets/logo-white.svg' alt='img' /></li>
+                        <li className='header__nav--logo'><img src='https://user-images.githubusercontent.com/87577172/176918428-a54e7662-03ee-4f8b-a65e-fb85552cdea3.svg' alt='img' /></li>
                         :
                         scroll.resultado ?
-                            <li className='header__nav--logo'><img src='./assets/logo.svg' alt='img' /></li>
+                            <li className='header__nav--logo'><img src='https://user-images.githubusercontent.com/87577172/176918559-5c122fd6-5a2c-4841-9fda-266bdfab7970.svg' alt='img2' /></li>
                             :
                             ''
                 }

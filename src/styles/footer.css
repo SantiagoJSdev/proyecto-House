@@ -43,8 +43,7 @@ align-items: center;
  left: 0;
  display: flex;
  gap: 1.25em;
- border: 2px solid red;
-
+ 
 }
 .title__logo--instagram{
 display: flex;
@@ -80,8 +79,7 @@ height: 11.25em;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 2px solid blue;
-}
+ }
 .footer__suscribe--1{
 width: 100%;
 height: 100%;
@@ -89,21 +87,18 @@ border-bottom: 3px solid rgb(56, 56, 56);
 display: flex;
 justify-content: space-between;
 
-border: 2px solid rgb(0, 255, 13);
-}
+ }
 .uno__direccion{
 width: 25%;
 height: 100%;
-border: 2px solid rgb(238, 231, 233);
-}
+ }
 .direccion--1__dir {
 display: flex;
 color: var(--color-white);
 margin-top: 1.25em;
 gap: 0.9375em;
 font-size: calc(0.5em + 0.6vw);
-
-    /* align-items: center; */
+ 
 }
 .direccion--1__email {
 display: flex;
@@ -112,9 +107,6 @@ margin-top: 1.25em;
 gap: 0.9375em;
 align-items: center;
 font-size: calc(0.5em + 0.6vw);
-
-border: 2px solid rgb(0, 242, 255);
-
 }
 .direccion--1__numero {
 display: flex;
@@ -140,8 +132,7 @@ gap: 0.9375em;
 align-items: center;
 margin-top: 1.25em;
 color: var(--color-white);
-border: 2px solid rgb(212, 212, 46);
-font-size: calc(0.5em + 0.6vw);
+ font-size: calc(0.5em + 0.6vw);
 
 }
 .uno__email{
@@ -154,8 +145,7 @@ margin-top: 0.7em;
 gap: 1.25em;
 align-items: center;
 position: relative;
-border: 2px solid rgb(188, 188, 72);
-
+ 
 }
 .uno__email> p{
     color: var(--color-white);
@@ -207,8 +197,7 @@ height: 3.125em;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 2px solid red;
-
+ 
 }
 .footer__derechos--1{
     width: 80%;
@@ -279,7 +268,6 @@ border: 2px solid red;
             gap: 1.25em;
             align-items: center;
             position: relative;
-            border: 2px solid rgb(188, 188, 72);
-            
+             
             }
 }

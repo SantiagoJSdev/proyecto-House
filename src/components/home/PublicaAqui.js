@@ -23,13 +23,13 @@ export const PublicaAqui = () => {
                 </div>
                 <div className='home__img--entidades'>
                     <div className='entidades__uno home__img--agrandar'>
-                        <img src='./assets/patrocinadores/4f328e4b15ccea0a5a52526dd2ed3ea7abf33cec.png' />
+                        <img src='https://user-images.githubusercontent.com/87577172/176924198-48d7a3b6-c524-442c-9568-4b8bf2f91394.png' />
                     </div>
                     <div className='entidades__uno'>
-                        <img src='./assets/patrocinadores/52a7b9120294aba8f6f3aa17e0af1c01444c93a0.jpeg' />
+                        <img src='https://user-images.githubusercontent.com/87577172/176924311-bf93d219-7cb4-4787-ae22-231d14271d6a.jpeg' />
                     </div>
                     <div className='entidades__uno'>
-                        <img src='./assets/patrocinadores/dc004836e8919920d9179e3adad59b2a0824375b.jpg' />
+                        <img src='https://user-images.githubusercontent.com/87577172/176924383-dfba1ba6-244c-494f-9972-7d9b0f93a744.jpg' />
                     </div>
                 </div>
             </article>

@@ -4,7 +4,7 @@
 export const data = [
     {
         id: 1,
-        url: './assets/img/img3.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920693-d3c4b8db-1f94-4922-bd61-185ff90f39f1.jpg',
         direccion: 'Terrazas, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -16,7 +16,7 @@ export const data = [
     },
     {
         id: 2,
-        url: './assets/img/img2.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920848-8577f425-0812-4b3f-ae30-f5dfe8530ef5.jpg',
         direccion: 'Soto Mayor, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -28,7 +28,7 @@ export const data = [
     },
     {
         id: 3,
-        url: './assets/img/img3.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920693-d3c4b8db-1f94-4922-bd61-185ff90f39f1.jpg',
         direccion: 'San Alanzo, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -40,7 +40,7 @@ export const data = [
     },
     {
         id: 4,
-        url: './assets/img/img4.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920954-59784765-5a65-4c22-873b-c366e84e9a2b.jpg',
         direccion: 'Diamante, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'No verificado',
@@ -52,7 +52,7 @@ export const data = [
     },
     {
         id: 5,
-        url: './assets/img/img3.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920693-d3c4b8db-1f94-4922-bd61-185ff90f39f1.jpg',
         direccion: 'San Francisco, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -64,7 +64,7 @@ export const data = [
     },
     {
         id: 6,
-        url: './assets/img/img6.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176921119-b6b3db59-c16f-43a2-8e83-360b9f5f372b.jpg',
         direccion: 'Comuneros, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -76,7 +76,7 @@ export const data = [
     },
     {
         id: 7,
-        url: './assets/img/img3.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920693-d3c4b8db-1f94-4922-bd61-185ff90f39f1.jpg',
         direccion: 'Prados, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -88,7 +88,7 @@ export const data = [
     },
     {
         id: 8,
-        url: './assets/img/img8.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176921197-b6646a3c-6505-4538-97bb-5c3feb801f8e.jpg',
         direccion: 'Cabecera, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -100,7 +100,7 @@ export const data = [
     },
     {
         id: 9,
-        url: './assets/img/img3.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920693-d3c4b8db-1f94-4922-bd61-185ff90f39f1.jpg',
         direccion: 'San Francisco, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -112,7 +112,7 @@ export const data = [
     },
     {
         id: 10,
-        url: './assets/img/img6.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176921119-b6b3db59-c16f-43a2-8e83-360b9f5f372b.jpg',
         direccion: 'Comuneros, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -124,7 +124,7 @@ export const data = [
     },
     {
         id: 11,
-        url: './assets/img/img3.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176920693-d3c4b8db-1f94-4922-bd61-185ff90f39f1.jpg',
         direccion: 'Prados, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',
@@ -136,7 +136,7 @@ export const data = [
     },
     {
         id: 12,
-        url: './assets/img/img8.jpg',
+        url: 'https://user-images.githubusercontent.com/87577172/176921197-b6646a3c-6505-4538-97bb-5c3feb801f8e.jpg',
         direccion: 'Cabecera, Bucaramanga, Santander',
         tipo: 'Apartamento',
         estado: 'Verificado',

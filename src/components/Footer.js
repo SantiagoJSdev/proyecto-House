@@ -13,7 +13,7 @@ export const Footer = () => {
               <div className='title__logo--facebook logo1'><i className="fab fa-facebook-f"></i></div>
               <div className='title__logo--twitter logo1'><i className="fab fa-twitter"></i></div>
             </div>
-            <img src='./assets/logo-white.svg' alt='img' />
+            <img src='https://user-images.githubusercontent.com/87577172/176918428-a54e7662-03ee-4f8b-a65e-fb85552cdea3.svg' alt='img' />
           </div>
         </div>
         <div className='footer__suscribe'>
