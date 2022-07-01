@@ -76,7 +76,8 @@ body {
 }
 
 .home__img {
-    grid-area: img;
+    grid-area: img;    font-size: calc(1.9em + 1.9vw);
+
     z-index: 4;
     /* background: rgb(65, 65, 66); */
 }

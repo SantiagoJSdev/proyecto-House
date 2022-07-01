@@ -22,6 +22,7 @@ height: 3.125em;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 .footer__title--1{
     width: 80%;
@@ -30,10 +31,11 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+   
     position: relative;
 }
 .footer__title--1 > img {
-    width: 19%;
+    width: calc(8em + 8vw);
 }
 .footer__title--1 > div {
     /* transform: translate(-450px); */
@@ -41,6 +43,8 @@ align-items: center;
  left: 0;
  display: flex;
  gap: 1.25em;
+ border: 2px solid red;
+
 }
 .title__logo--instagram{
 display: flex;
@@ -49,7 +53,7 @@ align-items: center;
 }
 .title__logo--instagram > i{
 color: var(--color-white);
-font-size: 20px;
+font-size: calc(0.7em + 0.7vw);
 }
 .title__logo--facebook{
 display: flex;
@@ -58,7 +62,7 @@ align-items: center;
 }
 .title__logo--facebook > i {
 color: var(--color-white);
-font-size: 20px;
+font-size: calc(0.7em + 0.7vw);
 }
 .title__logo--twitter{
     display: flex;
@@ -67,7 +71,7 @@ font-size: 20px;
 }
 .title__logo--twitter > i{
     color: var(--color-white);
-    font-size: 20px;
+    font-size: calc(0.7em + 0.7vw);
 }
 .footer__suscribe{
 /* min-width: 80%; */
@@ -76,23 +80,29 @@ height: 11.25em;
 display: flex;
 justify-content: center;
 align-items: center;
+border: 2px solid blue;
 }
 .footer__suscribe--1{
-width: 80%;
+width: 100%;
 height: 100%;
 border-bottom: 3px solid rgb(56, 56, 56);
 display: flex;
+justify-content: space-between;
+
+border: 2px solid rgb(0, 255, 13);
 }
 .uno__direccion{
 width: 25%;
 height: 100%;
-/* background: #F75757; */
+border: 2px solid rgb(238, 231, 233);
 }
 .direccion--1__dir {
 display: flex;
 color: var(--color-white);
 margin-top: 1.25em;
 gap: 0.9375em;
+font-size: calc(0.5em + 0.6vw);
+
     /* align-items: center; */
 }
 .direccion--1__email {
@@ -101,6 +111,10 @@ color: var(--color-white);
 margin-top: 1.25em;
 gap: 0.9375em;
 align-items: center;
+font-size: calc(0.5em + 0.6vw);
+
+border: 2px solid rgb(0, 242, 255);
+
 }
 .direccion--1__numero {
 display: flex;
@@ -108,6 +122,8 @@ color: var(--color-white);
 margin-top: 1.25em;
 gap: 0.9375em;
 align-items: center;
+font-size: calc(0.5em + 0.6vw);
+
 }
 .direccion--1__numero > p{
     margin-left: 5px;
@@ -124,6 +140,9 @@ gap: 0.9375em;
 align-items: center;
 margin-top: 1.25em;
 color: var(--color-white);
+border: 2px solid rgb(212, 212, 46);
+font-size: calc(0.5em + 0.6vw);
+
 }
 .uno__email{
 width: 50%;
@@ -131,33 +150,39 @@ height: 100%;
 /* background: #524646; */
 display: flex;
 flex-direction: column;
-margin-top: 1.25em;
+margin-top: 0.7em;
 gap: 1.25em;
 align-items: center;
 position: relative;
+border: 2px solid rgb(188, 188, 72);
+
 }
 .uno__email> p{
     color: var(--color-white);
+    font-size: calc(0.5em + 0.6vw);
+
 }
 .uno__email > form > div > input {
-    width: 25rem;
-    height: 3.125rem;
+    width: calc(11.5em + 11.6vw);
+    height: calc(1.5em + 1.6vw);
     border-radius: 5px;
     background: grey;
     color: var(--color-white);
     border: none;
     padding-left: 0.9375rem;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: calc(0.7em + 0.6vw);
+
 }
 .uno__email > form> div > input::placeholder {
     /* padding-left: 10px; */
-    font-size: 20px;
+    font-size: calc(0.7em + 0.6vw);
     color: var(--color-white);
     
 }
 .uno__email > form> div > label {
-    width: 7.5em;
-    height: 3.125em;
+    width: calc(4.5em + 4.6vw);
+    height: calc(1.5em + 1.6vw);
     border-radius:  0px 5px 5px 0;
     background: var(--color-nav);
     position: absolute;
@@ -167,6 +192,8 @@ position: relative;
     align-items: center;
     color: var(--color-white);
     cursor: pointer;
+    font-size: calc(0.7em + 0.6vw);
+
 }
 .uno__email > form> div {
     display: flex;
@@ -180,6 +207,8 @@ height: 3.125em;
 display: flex;
 justify-content: center;
 align-items: center;
+border: 2px solid red;
+
 }
 .footer__derechos--1{
     width: 80%;
@@ -189,15 +218,68 @@ align-items: center;
     align-items: center;
     color: var(--color-white);
     justify-content: space-between;
+    font-size: calc(0.6em + 0.6vw);
+
 }
 .footer__derechos--1 > p{
    cursor: pointer;
+   font-size: calc(0.6em + 0.6vw);
+
 }
 .logo1{
-    width: 2.5em;
-    height: 2.5em;
+    width: calc(1.2em + 1.5vw);
+    height: calc(1.2em + 1.5vw);
     border-radius: 50px;
     background: rgb(56, 56, 56);
     cursor: pointer;
 }
-
+.uno__lista > ul li {
+    
+    font-size: calc(0.6em + 0.6vw);
+    
+    }
+@media screen and (max-width:600px) {
+    .uno__lista > ul li {
+    
+        font-size: calc(0.7em + 0.6vw);
+        
+        }
+        .footer__title--1{
+           
+            justify-content: flex-end;
+            
+        }
+        .uno__email > form > div > input {
+            width: calc(9.5em + 9.6vw);
+            height: calc(1.5em + 1.6vw);
+            
+            font-size: calc(0.7em + 0.6vw);
+        
+        }
+}
+@media screen and (max-width:400px) {
+    .footer__title--1 > div {
+     display: none;
+    }
+    .footer__title--1{
+           
+        justify-content: center;
+        
+    }
+    .uno__direccion{
+     display: none;
+        }
+        .uno__email{
+            width: 70%;
+            height: 100%;
+            /* background: #524646; */
+            display: flex;
+            flex-direction: column;
+            margin-top: 0.7em;
+            gap: 1.25em;
+            align-items: center;
+            position: relative;
+            border: 2px solid rgb(188, 188, 72);
+            
+            }
+}
